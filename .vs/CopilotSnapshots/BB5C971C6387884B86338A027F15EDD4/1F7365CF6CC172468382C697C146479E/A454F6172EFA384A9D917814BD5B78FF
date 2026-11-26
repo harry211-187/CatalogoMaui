@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="CatalogoMaui.Views.ProductoDetallePage"
+Title="Producto">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Image x:Name="VistaFoto" HeightRequest="150" Aspect="AspectFit" />
+            <Label Text="Nombre" />
+            <Entry x:Name="Nombre" MaxLength="100" />
+            <Label Text="Descripción breve para la tarjeta" />
+            <Entry x:Name="Descripcion" MaxLength="200" />
+            <Label Text="Descripción completa" />
+            <Editor x:Name="Detalle" MaxLength="1000" HeightRequest="90" />
+            <Label Text="Precio en pesos" />
+            <Entry x:Name="Precio" Keyboard="Numeric" Placeholder="Ejemplo: 89.50" />
+            <Label Text="Imagen" />
+            <Picker x:Name="Foto" Title="Selecciona una imagen"
+SelectedIndexChanged="AlCambiarFoto" />
+            <Button x:Name="Guardar" Text="Guardar" Clicked="AlGuardar" />
+            <Button x:Name="Eliminar" Text="Eliminar producto"
+IsVisible="False" Clicked="AlEliminar" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+```csharp
+await EjecutarAsync(async () =>
+{
+    // Id cero: todavía no hay fila. Otro Id: actualizamos esa fila.
+    if (id == 0)
+        await ProductosSqllite.Instancia.Insertar(producto);
+    else if (!await ProductosSqllite.Instancia.Actualizar(producto))
+        throw new InvalidOperationException("El producto ya no existe.");
+});
+
+private async void AlEliminar(object sender, EventArgs e)
+{
+    if (id == 0) return;
+
+    bool confirmar = await DisplayAlert(
+        "Eliminar producto",
+        "¿Seguro que deseas eliminar este producto?",
+        "Eliminar",
+        "Cancelar");
+    if (!confirmar) return;
+
+    await EjecutarAsync(async () =>
+    {
+        if (!await ProductosSqllite.Instancia.Eliminar(id))
+            throw new InvalidOperationException("El producto ya no existe.");
+
+        await Shell.Current.GoToAsync("..");
+    });
+}

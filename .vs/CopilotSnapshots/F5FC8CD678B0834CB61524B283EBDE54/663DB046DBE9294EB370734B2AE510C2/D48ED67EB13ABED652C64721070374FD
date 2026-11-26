@@ -1,0 +1,109 @@
+﻿using System.Globalization;
+using CatalogoMaui.Models;
+using CatalogoMaui.Service;
+
+namespace CatalogoMaui.Views;
+
+public partial class ProductoDetallePage : ContentPage, IQueryAttributable
+{
+    private int id;
+    public ProductoDetallePage()
+    {
+        InitializeComponent();
+        Title = "Agregar producto";
+        Foto.ItemsSource = new List<string> { "mochila.jpg", "libreta.jpg", "termo.jpg" };
+        Foto.SelectedIndex = 0;
+    }
+    // Con datos es edición. Sin datos conservamos el formulario nuevo.
+    public void ApplyQueryAttributes(IDictionary<string, object> query)
+    {
+        if (!query.TryGetValue("producto", out var dato) || dato is not Producto p)
+            return;
+        id = p.Id;
+        Title = "Editar producto";
+        Nombre.Text = p.Nombre;
+        Descripcion.Text = p.Descripcion;
+        Detalle.Text = p.Detalle;
+        Precio.Text = p.Precio.ToString("0.00", CultureInfo.CurrentCulture);
+        Foto.SelectedItem = p.Foto;
+        Eliminar.IsVisible = true;
+    }
+    private void AlCambiarFoto(object? sender, EventArgs e)
+    {
+        if (Foto.SelectedItem is string archivo)
+            VistaFoto.Source = archivo;
+    }
+
+    private async void AlGuardar(object? sender, EventArgs e)
+    {
+        if (!Guardar.IsEnabled) return;
+        var textoPrecio = Precio.Text?.Trim().Replace(',', '.');
+        if (string.IsNullOrWhiteSpace(Nombre.Text) ||
+        string.IsNullOrWhiteSpace(Descripcion.Text) ||
+        string.IsNullOrWhiteSpace(Detalle.Text) ||
+        !decimal.TryParse(textoPrecio, NumberStyles.AllowDecimalPoint,
+        CultureInfo.InvariantCulture, out var importe) ||
+
+        importe < 0 || importe > 99999999.99m ||
+        decimal.Round(importe, 2) != importe ||
+        Foto.SelectedItem is not string archivo)
+
+        {
+            await DisplayAlert("Revisa los datos",
+            "Completa los campos y escribe un precio válido de hasta dos decimales.", "Aceptar");
+            return;
+        }
+        var producto = new Producto
+        {
+            Id = id,
+            Nombre = Nombre.Text.Trim(),
+            Descripcion = Descripcion.Text.Trim(),
+            Detalle = Detalle.Text.Trim(),
+            Precio = importe,
+            Foto = archivo
+        };
+        await EjecutarAsync(async () =>
+        {
+            // Id cero: todavía no hay fila. Otro Id: actualizamos esa fila.
+            if (id == 0)
+                await ProductosSqllite.Instancia.Insertar(producto);
+            else if (!await ProductosSqllite.Instancia.Actualizar(producto))
+                throw new InvalidOperationException("El producto ya no existe.");
+        });
+    }
+
+    private async void AlEliminar(object sender, EventArgs e)
+    {
+        if (id == 0) return;
+
+        bool confirmar = await DisplayAlert(
+            "Eliminar producto",
+            "¿Seguro que deseas eliminar este producto?",
+            "Eliminar",
+            "Cancelar");
+        if (!confirmar) return;
+
+        await EjecutarAsync(async () =>
+        {
+            if (!await ProductosSqllite.Instancia.Eliminar(id))
+                throw new InvalidOperationException("El producto ya no existe.");
+
+            await Shell.Current.GoToAsync("..");
+        });
+    }
+
+    private async Task EjecutarAsync(Func<Task> accion)
+    {
+        try
+        {
+            await accion();
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert(
+                "Error",
+                $"No se pudo completar la operación. {ex.Message}",
+                "Aceptar");
+        }
+    }
+}

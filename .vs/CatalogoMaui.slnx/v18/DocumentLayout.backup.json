@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\views\\productodetallepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\views\\productodetallepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\views\\productodetallepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\views\\productodetallepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\catalogomaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\catalogomaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\viewmodels\\catalogoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\viewmodels\\catalogoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\service\\productossqllite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\service\\productossqllite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|c:\\users\\harry\\source\\repos\\catalogomaui\\catalogomaui\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F465638-AB6C-46A4-A892-8CA1A790D9AE}|CatalogoMaui\\CatalogoMaui.csproj|solutionrelative:catalogomaui\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoDetallePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Views\\ProductoDetallePage.xaml.cs",
+              "RelativeDocumentMoniker": "CatalogoMaui\\Views\\ProductoDetallePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Views\\ProductoDetallePage.xaml.cs",
+              "RelativeToolTip": "CatalogoMaui\\Views\\ProductoDetallePage.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAjwEAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T02:40:53.67Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoDetallePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Views\\ProductoDetallePage.xaml",
+              "RelativeDocumentMoniker": "CatalogoMaui\\Views\\ProductoDetallePage.xaml",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Views\\ProductoDetallePage.xaml",
+              "RelativeToolTip": "CatalogoMaui\\Views\\ProductoDetallePage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-26T02:40:08.857Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CatalogoMaui\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\MainPage.xaml.cs",
+              "RelativeToolTip": "CatalogoMaui\\MainPage.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwBUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T01:52:54.933Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "CatalogoMaui\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\AppShell.xaml.cs",
+              "RelativeToolTip": "CatalogoMaui\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T01:45:33.547Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\MainPage.xaml",
+              "RelativeDocumentMoniker": "CatalogoMaui\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\MainPage.xaml",
+              "RelativeToolTip": "CatalogoMaui\\MainPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-26T01:45:25.85Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatalogoMaui",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\CatalogoMaui.csproj",
+              "RelativeDocumentMoniker": "CatalogoMaui\\CatalogoMaui.csproj",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\CatalogoMaui.csproj",
+              "RelativeToolTip": "CatalogoMaui\\CatalogoMaui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-26T00:45:34.087Z",
+              "EditorCaption": "",
+              "OwnerCaption": "CatalogoMaui"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CatalogoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\ViewModels\\CatalogoViewModel.cs",
+              "RelativeDocumentMoniker": "CatalogoMaui\\ViewModels\\CatalogoViewModel.cs",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\ViewModels\\CatalogoViewModel.cs",
+              "RelativeToolTip": "CatalogoMaui\\ViewModels\\CatalogoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T01:44:12.45Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductosSqllite.cs",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Service\\ProductosSqllite.cs",
+              "RelativeDocumentMoniker": "CatalogoMaui\\Service\\ProductosSqllite.cs",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Service\\ProductosSqllite.cs",
+              "RelativeToolTip": "CatalogoMaui\\Service\\ProductosSqllite.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T00:49:57.863Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "CatalogoMaui\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Harry\\source\\repos\\CatalogoMaui\\CatalogoMaui\\Models\\Producto.cs",
+              "RelativeToolTip": "CatalogoMaui\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T00:46:35.461Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
